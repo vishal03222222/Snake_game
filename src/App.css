@@ -1,5 +1,4 @@
-/* Base Styles */body{
-  background-color:0 0 20px rgba(0, 255, 255, 0.5);}
+/* Base Styles */
 .game-container {
   display: flex;
   flex-direction: column;
@@ -12,8 +11,8 @@
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
   position: relative;
   overflow: hidden;
-  padding:150px;
-  //border-color:rgba(180, 227, 24, 0.95);
+  padding:100px;
+  
 }
 
 .game-container::before {
@@ -148,8 +147,10 @@ canvas {
   color: #fff;
   text-align: center;
   padding: 20px;
-  border-color:rgba(180, 227, 24, 0.95);
+  border:rgba(180, 227, 24, 0.95);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
   animation: fadeIn 0.5s ease-out;
+  padding:90px
 }
 
 .game-over h2 {

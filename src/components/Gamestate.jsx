@@ -27,6 +27,7 @@ const GameState = () => {
 
   return (
     <div className="game-container">
+      <h2 style={{marginBottom:"30px",color:"red"}}>Snake Game</h2>
       <div className="score-board">
         <p className="score">Score: {score}</p>
         <p className="high-score">High Score: {highScore}</p>

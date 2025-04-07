@@ -1,4 +1,4 @@
-// GamePieces.js
+
 import React, { useState, useEffect, useRef } from "react";
 
 const GamePieces = ({ score, setScore, onGameOver }) => {
